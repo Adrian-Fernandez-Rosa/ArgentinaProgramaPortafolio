@@ -1,0 +1,71 @@
+.navbar.navbar-expand-lg.bg-primary{
+    background-color: rgba(0, 115, 135, 0.481) !important;
+   /* background: rgb(115,162,209) !important; */
+background: -moz-radial-gradient(circle, rgba(115,162,209,0.35056029247636555) 0%, rgba(65,184,215,0.3029412448573179) 100%);
+background: -webkit-radial-gradient(circle, rgba(115,162,209,0.35056029247636555) 0%, rgba(65,184,215,0.3029412448573179) 100%);
+background: radial-gradient(circle, rgba(115,162,209,0.35056029247636555) 0%, rgba(65,184,215,0.3029412448573179) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#73a2d1",endColorstr="#41b8d7",GradientType=1);
+
+}
+
+body{
+    background-image: url(/assets/img/paisaje3.jpg);
+        /* background-size: 100%; */
+        background-repeat: no-repeat;
+        background-position: ;
+        background-size: cover;
+        /* min-height: 100; */
+        
+    
+    
+}
+section.about {
+    /* top: 10% */
+    padding: 55rem;
+}
+
+/* <li class="list-group item"><i class="fa-brands fa-instagram fa-2xl"></i></li>  */
+
+/* li.list-group.fa-brands.fa-instagram.fa-2xl {
+    background-color: red !important;
+    width: 9000px;
+} */
+
+.list-group.list-group-horizontal{
+    margin-right: 1%;
+}
+
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color: orange;
+}
+
+i.fa-brands.fa-instagram.fa-2xl{
+    color: #c64f80;
+}
+
+i.fa-brands.fa-github.fa-2xl:hover{
+   color:white;
+}
+
+.banner {
+
+    max-width: 100% ;
+    margin-top:-60% ;
+}
+
+.fa-user-lock:hover {
+    color:white;
+}
+
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color:#1066c7;
+}  
+i.fa-brands.fa-linkedin.fa-2xl{
+    color:#005ac2;
+}  
+
+.list-group-item{
+background-color: transparent;
+border: none;
+}
+
