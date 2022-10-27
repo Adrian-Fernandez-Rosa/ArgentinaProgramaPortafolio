@@ -4,13 +4,10 @@
 }
 
 
-/* header */
+/* nav */
 
-header{
-    width: 100%;
-    height: auto;
-    position: relative;
-    overflow: hidden;
+a, button {
+    margin-left: 1.5vw;
 }
 
 img{
@@ -20,31 +17,91 @@ img{
 }
 
 nav{
-    background-color: rgba(34, 33, 33, 0.481);
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-  }
+  background-color: rgba(34, 33, 33, 0.481);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
 
-  .login{
+
+.login{
     color: rgb(254, 249, 240);
     font-family: 'Numans', sans-serif;
-    margin-right: 4vh;
-  text-decoration: none !important;
-
-
-}
-
-.linklogin{
-    text-decoration: none;
-    color: inherit;
-}
-
-.login:link, .login:visited, .login:active {
-    text-decoration: none ;
-    
+    margin-right: 2vh;
+    cursor: pointer;
 }
 
 a, button {
     margin-left: 1.5vw;
+}
+
+
+/* Header */
+
+header{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+}
+
+
+video{
+    bottom: 0px;
+    width: 100%;
+  
+
+ 
+}
+
+.absolute{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Numans', sans-serif;
+}
+
+h1{
+  font-family: 'Numans', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: rgba(240, 248, 255, 0.779);
+    margin-bottom: 30px;
+}
+
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:rgba(9, 9, 9, 0.525);
+}
+
+h2{
+  color: rgba(240, 248, 255, 0.752);
+  margin-top: 100px;
+}
+
+button{
+  margin-top: 200px;
+  color: rgba(240, 248, 255, 0.841);
+  background-color: rgba(29, 30, 30, 0.042);
+  border-color: rgba(240, 248, 255, 0.752);
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+button:hover{
+  background-color:  rgba(40, 42, 43, 0.59);
 }
