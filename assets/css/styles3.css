@@ -1,0 +1,50 @@
+.ArgentinaPrograma{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+
+/* header */
+
+header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+img{
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+nav{
+    background-color: rgba(34, 33, 33, 0.481);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .login{
+    color: rgb(254, 249, 240);
+    font-family: 'Numans', sans-serif;
+    margin-right: 4vh;
+  text-decoration: none !important;
+
+
+}
+
+.linklogin{
+    text-decoration: none;
+    color: inherit;
+}
+
+.login:link, .login:visited, .login:active {
+    text-decoration: none ;
+    
+}
+
+a, button {
+    margin-left: 1.5vw;
+}
